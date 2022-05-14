@@ -1,0 +1,185 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.money-manager-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 16px #7e858e;
+  padding: 10px;
+}
+
+.greet-name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 18vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .greet-name-container {
+    align-items: flex-start;
+  }
+}
+
+.heading-name {
+  font-family: 'Consolas';
+  font-size: 15px;
+  color: #1e293b;
+  margin-bottom: 0;
+}
+
+.caption-greeting {
+  color: #7e858e;
+  font-family: 'Consolas';
+  font-size: 10px;
+  margin-top: 6px;
+}
+
+.money-manager-text {
+  color: #0b69ff;
+  font-family: 'Consolas';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-name {
+    font-family: 'Consolas';
+    font-size: 25px;
+    color: #1e293b;
+    margin-bottom: 0;
+  }
+
+  .caption-greeting {
+    color: #7e858e;
+    font-family: 'Consolas';
+    font-size: 15px;
+  }
+
+  .money-manager-text {
+    color: #0b69ff;
+    font-family: 'Consolas';
+    font-size: 15px;
+  }
+}
+
+.bottom-transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-transaction-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid 1px #7e858e;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-form {
+    width: 70%;
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+}
+
+.add-txn-heading {
+  font-family: 'Consolas';
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.input-label {
+  color: #7e858e;
+  font-family: 'Consolas';
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.input-style {
+  outline: none;
+  border: solid 1px #7e858e;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.add-btn {
+  color: #ffffff;
+  font-family: 'Consolas';
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-style: none;
+  background-color: #0b69ff;
+  width: 80px;
+}
+
+.transaction-history {
+  width: 100%;
+  border: solid 1px #7e858e;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-history {
+    width: 40%;
+    margin-left: 10px;
+  }
+}
+
+.transaction-table-container {
+  border-radius: 10px;
+}
+
+.transaction-table {
+  padding-left: 0;
+  margin: 0;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table-header-cell {
+  color: #334155;
+  font-family: 'Consolas';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
